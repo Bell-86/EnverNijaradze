@@ -1,0 +1,183 @@
+/*header*/
+body {
+	height: 1500px;
+}
+.header {
+	position: fixed;
+	background-color: lightgrey;
+	padding: 5px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	z-index: 100;
+}
+/*ლოგო*/
+.surati {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+.nav-li {
+	display: inline-block;
+	margin-left: 80px; 
+	color: black;
+	right: 20px;
+}
+.nav-a-active {
+	color: green;
+}
+/*p*/
+.h1 {
+	font-size: 30px;
+	color: green;
+	margin-top: 100px;
+	place-content: center;
+}
+.h2 {
+	font-size: 50px;
+	margin-top: 55px;
+	margin-bottom: 0.1px;
+}
+/*section*/
+.section {
+	display: inline-block;
+}
+.wrapper-box1 {
+	margin-top: 10px;
+    display: inline-block;
+}
+
+.sur {
+	position: relative;
+	width: 60%;
+	height: 60%;
+	top: 20px;
+	border-radius: 15px;
+	left: 15px;
+}
+.text1 {
+	position: absolute;
+	font-size: 15px; 
+	color: black;
+	top: 565px;
+	left: 30px;
+}
+.text2 {
+	position: absolute;
+	font-size: 15px; 
+	color: black;
+	top: 565px;
+	left: 395px;
+}
+.text3 {
+	position: absolute;
+	font-size: 15px; 
+	color: black;
+	top: 565px;
+	left: 900px
+}
+.sur1 {
+	position: absolute;
+	width: 25%;
+	height: 45%;
+	top: 160px;
+	left: 350px;
+	border-radius: 15px;
+	opacity: 1;
+}
+.sur2 {
+	position: absolute;
+	width: 25%;
+	height: 45%;
+	top: 160px;
+	left: 750px;
+	border-radius: 15px;
+}
+
+.wrapper-box {
+margin-top: 10px;
+display: inline-block;
+}
+
+.surati1 {
+	width: 50%;
+	height: 50%;
+	margin-top: 40px;
+	border-radius: 15px;
+	left: 18px;
+}
+
+.text4 {
+	font-size: 15px; 
+	color: black;
+	top: 565px;
+	left: 10px
+}
+/*section*/
+.section1 {
+	position: relative;
+}
+
+.surati2 {
+	position: absolute;
+	height: 430px;
+	width: 300px;
+	bottom: 12px;
+	left: 340px;
+	border-radius: 15px 20px;
+}
+.text5 {
+	font-size: 15px; 
+	color: black;
+	top: 565px;
+	left: 12px;
+}
+.surati3 {
+	position: absolute;
+	height: 430px;
+	width: 300px;
+	bottom: 12px;
+	left: 700px;
+	border-radius: 15px;
+}
+.text6 {
+	font-size: 15px; 
+	color: black;
+	top: 565px;
+	left: 20px;
+}
+.surati4 {
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	bottom: 15px;
+	right: 350px;
+}
+.wrapperbox {
+	background-color: green;
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+.wrapperbox:hover {
+	background-color: yellowgreen;
+	transition-duration: 0.5s;
+}
+.child-box {
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center; transform: rotate(45deg);
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+.child-box:hover {
+	background-color: green;
+	transform: translate(-50%,-50%) rotate(0deg);
+}
+/*@keyframes wrapperbox {*/
+
